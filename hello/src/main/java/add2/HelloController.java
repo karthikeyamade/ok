@@ -9,7 +9,7 @@ import org.springframework.ui.ModelMap;
 @RequestMapping("/hello")
 public class HelloController {
    @RequestMapping(method = RequestMethod.GET)public String printHello(ModelMap model) {
-      model.addAttribute("message", "hbefgutltrk MVC Framework!");
+      model.addAttribute("message", "I HAVE changed this MVC Framework!");
       return "hello";
    }
 }
